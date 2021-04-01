@@ -16,8 +16,8 @@
     <header>
         <div class="container">
             <div class="contacts clearfix">
-                <span class="adress">Новокузнецкий переулок 4/1</span>
-                <span class="phone">8 (812) 123-45-67</span>
+                <span class="header-adress">Новокузнецкий переулок 4/1</span>
+                <span class="header-phone">8 (812) 123-45-67</span>
             </div>
             <ul class="nav-menu">
                 <li>
@@ -33,8 +33,10 @@
                     <a href="#">Контакты</a>
                 </li>
             </ul>
-            <a class="btn" href="#">Винная карта</a>
-            <a class="btn" href="#">Дегустация</a>
+            <div class="header-buttons">
+                <a class="btn" href="#">Винная карта</a>
+                <a class="btn" href="#">Дегустация</a>
+            </div>
         </div>
     </header>
     <main>
@@ -65,8 +67,8 @@
                     <div class="line"></div>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                         Feugiat enim tortor in hac id imperdiet adipiscing.<br>
-                        Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi<br>
-                        sodales ac.
+                        Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing<br>
+                        morbi sodales ac.
                     </p>
                     <table class="novelty-table">
                         <tbody>
@@ -95,15 +97,15 @@
                     </table>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                         Feugiat enim tortor in hac id imperdiet adipiscing.<br>
-                        Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi<br>
-                        sodales ac.
+                        Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing<br>
+                        morbi sodales ac.
                     </p>
                     <a class="btn" href="#">Узнать подробнее</a>
                 </div>
                 <div class="novelty-images">
-                    <img src="#" alt="Бокал вина на фоне виноградника">
-                    <img src="#" alt="Бутылки вина на полке">
-                    <img src="#" alt="Несколько бутылок вина с ценниками">
+                    <img src="img/novelty_img_big.png" alt="Бокал вина на фоне виноградника">
+                    <img src="img/novelty_img_2.png" alt="Бутылки вина на полке">
+                    <img src="img/novelty_img_3.png" alt="Несколько бутылок вина с ценниками">
                 </div>
             </div>
         </div>
@@ -111,13 +113,16 @@
             <div class="container">
                 <div class="sign-up">
                     <h2>Запись на дегустацию</h2>
+                    <img class="grape" src="img/grape.jpg">
+                    <img class="barrel" src="img/barrel.jpg">
+                    <div class="line"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet
                         adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. </p>
-                    <form action="#" method="POST">
-                        <input name="name" type="text" id="name-id" placeholder="Имя">
-                        <input name="phone" type="phone" id="phone-id" placeholder="Телефон">
-                        <input name="adress" type="text" id="adress-id" value="Бутик на Невском 103">
-                        <input class="btn" name="sign-up" type="submit" id="sign-up-id" value="Записаться">
+                    <form class="sign-up-form" action="#" method="POST">
+                        <input class="name" type="text" id="name-id" value="Имя">
+                        <input class="phone" type="phone" id="phone-id" value="Телефон">
+                        <input class="adress" type="text" id="adress-id" value="Бутик на Невском 103">
+                        <input class="btn-input" name="sign-up" type="submit" id="sign-up-id" value="Записаться">
                     </form>
                 </div>
             </div>
@@ -152,9 +157,9 @@
                 <li>Винный бутик Le Corte</li>
                 <li>8 (812) 123-45-67</li>
                 <li class="social">
-                    <a><img src="#" alt="YouTube"></a>
-                    <a><img src="#" alt="Вконтакте"></a>
-                    <a><img src="#" alt="Facebook"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="img/carbon_logo-youtube.svg" alt="YouTube"></a>
+                    <a><img src="img/entypo-social_vk.svg" alt="Вконтакте"></a>
+                    <a><img src="img/bx_bxl-facebook.svg" alt="Facebook"></a>
                 </li>
                 <li>©Le-Corte.ru</li>
             </ul>>
